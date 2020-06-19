@@ -12,6 +12,10 @@ branches:
 node_js:
   - "11"
 
+arch:
+  - amd64
+  - arm64
+
 env:
   # Keep this Bazel version in sync with the `versions.check` directive
   # near the top of our WORKSPACE file.
